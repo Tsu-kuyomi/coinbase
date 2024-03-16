@@ -1,0 +1,156 @@
+body{
+    background-image: url(/bg.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topbox{
+    background-color: rgba(0, 0, 0, 0.911);
+    font-weight: 900;
+    width: fit-content;
+    margin: auto;
+    padding: 5px 30px;
+}
+
+.topbold{
+    background-image: url('/bg.jpg');
+    background-size: cover; 
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.united{
+    font-family: algerian;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.subunited{
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+.serialmoney{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.serialmoney> h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    font-weight: 500;
+    color: #3255FF;
+}
+
+.stampholder{
+    position: relative; 
+    display: inline-block;
+    /* border: 1px solid green; */
+    width: 10%;
+}
+
+.stampholder>img{
+    width: 100%; /* Make image responsive */
+    display: block; 
+}
+
+.stampholder>h2{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    color: transparent; /* Adjust text color for visibility */
+    font-size: 200%;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1.5px; /* Stroke thickness */ 
+  -webkit-text-stroke-color: black;  /* Stroke color */
+}
+
+.head{
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+
+.note{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.lower>h2{
+    font-size: 110%;
+}
+
+.right{
+    text-align: right;
+}
+
+.logoholder{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+
+.sign{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.sign>h2{
+    font-size: 1.2rem;
+}
+
+.sign>img{
+    width: 30%;
+}
+
+.legaldisclaimer{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.legal{
+    font-size: 2rem;
+}
+
+.disclaim{
+    font-size: 1.5rem;
+}
+
+.imgs{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+@media (max-width: 940px) {
+    .serialmoney{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lower{
+        display: flex;
+        flex-direction: column;
+    }
+}
