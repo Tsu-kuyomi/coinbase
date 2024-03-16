@@ -3,6 +3,25 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.navright>a{
+    color: #070707;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-decoration: none;
+    font-family: algerian;
+}
+
+a:hover{
+    color: #021fad;
+}
+
 .topbox{
     background-color: rgba(0, 0, 0, 0.911);
     font-weight: 900;
